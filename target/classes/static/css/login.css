@@ -1,0 +1,69 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+dangnhap{
+    display: block;
+    width: 100%;
+}
+.container {
+    padding-top: 10%;  
+}
+.container label{
+    color: #fff;
+}
+.container .dangnhap {
+    margin: auto;
+    background-color: #0000003b;
+    border-radius: 12px;
+    width: 300px;
+    height: 365px;
+    border: 1px solid #ffffffc4;
+}
+.dangnhap .dn-title{
+    background-color: #fffefe9e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #163e0b;
+}
+.dangnhap .dn-body{
+    padding: 20px;
+}
+.dangnhap .dn-body .input-group{
+    margin-bottom: 15px;
+}
+.dn-body{
+    margin-top: 20px;
+}
+.dn-body .form-check{
+    line-height: 20px;
+}
+.btn-dn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.btn-dn button{
+    width: 60%;
+}
+
+body {
+    background: url('../images/img1.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+.form1{
+    padding: 15px 30px;
+    border: 1px solid #17a2b8;
+}
