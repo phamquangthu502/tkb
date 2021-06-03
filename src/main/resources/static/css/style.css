@@ -1,0 +1,120 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+}
+schedule{
+    display: block;
+    width: 100%;
+    min-height: 70vh;
+}
+footer {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #000;
+    border-top: 1px solid #00000029;
+}
+.title{
+    height: 50px;
+    background: url('../images/banner1.jpg') no-repeat center;
+    background-size: cover;
+    background-color: #0a395170;
+    background-blend-mode: color;
+    margin-bottom: 1px;
+}
+.title h2{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+}
+.title .row{
+    margin-right: 0px;
+}
+.acc{
+    display: flex;
+    justify-content: space-between;
+    border-left: 5px solid #ffffff12;
+}
+.acc span{
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+.acc .acc-name{
+    font-size: 15px;
+}
+.s-title {
+    margin: 10px 0px;
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.13);
+    width: 100%;
+    padding-left: 5px;
+}
+.s-body h4{
+    text-align: center;
+}
+.btnadd{
+    margin-bottom: 15px;
+}
+.s-body .table-responsive{
+    margin-bottom: 20px;
+}
+tbody td{
+    text-align: center;
+}
+.fa-trash{
+    color: red;
+}
+.fa-pencil{
+    color: green;
+}
+.tit {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    margin-bottom: 10px;
+    color: red;
+}
+.modal .row{
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+}
+.modal .col-4{line-height: 38px;}
+.btnmodal{text-align: center;}
+.btnmodal .btn{width: 100px;}
+.head-table {
+    background-color: #17a2b826;
+    font-size: 14px;
+}
+.head-table th {
+    padding: 15px 5px;
+}
+.table{
+    font-size: 13px;
+}
+.fa-pencil{
+    font-size: 16px;
+}
+.fa-trash{
+    font-size: 16px;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+	    color: rgb(255, 255, 255);
+	}
+.active {
+    color: #fff;
+}
+.form1{
+    padding: 15px 30px;
+    border: 1px solid #17a2b8;
+}
